@@ -1,0 +1,6 @@
+.profile__edit {
+    display: flex;
+}
+.profile__edit:not(:last-child) {
+    margin-bottom: 16px;
+}

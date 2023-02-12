@@ -1,6 +1,6 @@
-.profile {
-    padding: 40px 0 50px;
+.card__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px 15px 31px 21px;
 }

@@ -23,8 +23,27 @@
 
 /* PROFILE */
 @import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__user/profile__user.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
-@import url(../blocks/profile/__edit-bttn/profile__edit-bttn.css);
 @import url(../blocks/profile/__info/profile__info.css);
-/* FOOTER */
+@import url(../blocks/profile/__edit/profile__edit.css);
+@import url(../blocks/profile/__user-name/profile__user-name.css);
+@import url(../blocks/profile/__edit-bttn/profile__edit-bttn.css);
+@import url(../blocks/profile/__user-occupation/profile__user-occupation.css);
+@import url(../blocks/profile/__add-bttn/profile__add-bttn.css);
+@import url(../blocks/profile/__add-symbol/profile__add-symbol.css);
 
+/* PLACES */
+@import url(../blocks/places/places.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__title/card__title.css);
+/* !!! Must fix the active and disabled buttons */
+@import url(../blocks/card/__like-bttn/card__like-bttn.css);
+@import url(../blocks/card/__like-bttn/_disabled/card__like-bttn_disabled.css);
+@import url(../blocks/card/__like-bttn/_active/card__like-bttn_active.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__licence/footer__licence.css);
