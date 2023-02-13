@@ -1,5 +1,4 @@
 .card__like-bttn {
-    outline: 1px solid #ae4934;
     opacity: 1;
     transition: opacity .8s ease 0s;
     cursor: pointer;
