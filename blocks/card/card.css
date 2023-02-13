@@ -1,4 +1,7 @@
 .card {
+    outline: 1px solid #ae4934;
     background-color: #fff;
     border-radius: 10px;
+    /* height: 361px; */
+    /* height: 100%; */
 }

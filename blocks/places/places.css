@@ -1,5 +1,26 @@
 .places {
+    outline: 1px solid #ae4934;
     display: grid;
     gap: 20px 17px;
-    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+    grid-template-columns: repeat(3, minmax(282px, 1fr));
+    grid-template-rows: repeat(2, 361px);
+}
+@media (width < 1280px) {
+    .places {
+        grid-template-columns: repeat(2, minmax(282px, 1fr));
+        /* grid-template-rows: repeat(auto-fit, 361px); */
+        gap: 20px;
+    }
+}
+@media (max-width: 714px) {
+    .places {
+        grid-template-columns: minmax(282px, 1fr);
+        grid-template-rows: 361px;
+    }
+}
+@media (max-width: 320px) {
+    .places {
+        grid-template-columns: 282px;
+        gap: 18px;
+    }
 }

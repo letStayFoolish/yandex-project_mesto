@@ -10,14 +10,13 @@
 
 /* IMG */
 @import url(../blocks/img/img.css);
-/* LIST */
 
-/* LINK */
+/* TEXT */
+@import url(../blocks/text/text.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__img/header__img.css);
 @import url(../blocks/header/__line/header__line.css);
 /* MAIN */
 
@@ -31,7 +30,6 @@
 @import url(../blocks/profile/__edit-bttn/profile__edit-bttn.css);
 @import url(../blocks/profile/__user-occupation/profile__user-occupation.css);
 @import url(../blocks/profile/__add-bttn/profile__add-bttn.css);
-@import url(../blocks/profile/__add-symbol/profile__add-symbol.css);
 
 /* PLACES */
 @import url(../blocks/places/places.css);

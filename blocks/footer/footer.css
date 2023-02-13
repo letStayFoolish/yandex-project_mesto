@@ -1,4 +1,11 @@
 .footer {
+    outline: 1px solid #ae4934;
     padding-top: 66px;
     padding-bottom: 60px;
+}
+@media (max-width: 320px) {
+    .footer {
+        padding-top: 48px;
+        padding-bottom: 36px;
+    }
 }
