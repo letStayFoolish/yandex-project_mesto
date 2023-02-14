@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../russian-travel"
+		},
+		{
+			"path": "../how-to-learn"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "yandex-project_mesto"
+	}
+}
