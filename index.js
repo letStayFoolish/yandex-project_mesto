@@ -1,7 +1,7 @@
 let editProfileButton = document.querySelector('.profile__edit-bttn');
 let closePopupButton = document.querySelector('.popup__close-bttn');
-let openPopup = document.querySelector('.popup_opend');
-openPopup.classList.remove('pop_opend');
+let openPopup = document.querySelector('.popup');
+
 
 editProfileButton.addEventListener('click', function() {
     openPopup.classList.add('popup_opend');
