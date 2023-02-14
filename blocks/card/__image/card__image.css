@@ -3,6 +3,7 @@
     object-position: top left;
     border-top-right-radius:10px;
     border-top-left-radius: 10px;
-    max-width: 100%;
+    max-width: 282px;
+    width: 100%;
     aspect-ratio: 1 / 1;
 }
